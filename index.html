@@ -58,7 +58,7 @@
             const loadingState = document.getElementById('loading-state');
 
             try {
-                const response = await fetch('entries.json');
+                const response = await fetch(`entries.json?t=${Date.now()}`);
                 if (!response.ok) {
                     throw new Error('Failed to load journal logs');
                 }
