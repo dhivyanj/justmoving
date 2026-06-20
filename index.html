@@ -104,8 +104,8 @@
 
                     article.appendChild(dateElem);
 
-                    // Add title if it's a file entry
-                    if (entry.title) {
+                    // Add title if it's a file entry and doesn't start with a markdown heading (#)
+                    if (entry.title && !entry.content.trim().startsWith('#')) {
                         const titleElem = document.createElement('h2');
                         titleElem.className = 'entry-title';
                         titleElem.textContent = entry.title;
