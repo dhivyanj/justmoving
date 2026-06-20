@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justmoving | journal</title>
+    <!-- Google Fonts for Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Marked library for parsing markdown in the browser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="journal-header">
+            <h1 class="journal-title">justmoving</h1>
+            <p class="journal-subtitle">a minimalist journal. logs are sorted latest first.</p>
+        </header>
+
+        <main id="journal-entries" class="journal-entries-container">
+            <div class="loading-state" id="loading-state">
+                parsing journal logs...
+            </div>
+            <!-- Entries will be dynamically populated here -->
+        </main>
+
+        <footer class="journal-footer">
+            <a href="https://github.com/dhivyanj/justmoving" class="hover-underline-animation footer-link">github repository</a>
+        </footer>
+    </div>
+
+    <script>
+        // Custom date formatter: YYYY-MM-DD HH:mm:ss
+        function formatDateTime(dateStr) {
+            const d = new Date(dateStr);
+            if (isNaN(d.getTime())) return dateStr;
+            
+            const year = d.getFullYear();
+            const month = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            const hours = String(d.getHours()).padStart(2, '0');
+            const minutes = String(d.getMinutes()).padStart(2, '0');
+            const seconds = String(d.getSeconds()).padStart(2, '0');
+            
+            return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+        }
+
+        // Fetch and render journal entries
+        async function loadEntries() {
+            const entriesContainer = document.getElementById('journal-entries');
+            const loadingState = document.getElementById('loading-state');
+            
+            try {
+                const response = await fetch('entries.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load journal logs');
+                }
+                const entries = await response.json();
+                
+                if (entries.length === 0) {
+                    entriesContainer.innerHTML = '<div class="no-entries">no journal logs found. add some using git commits or markdown files.</div>';
+                    return;
+                }
+                
+                // Clear loading state
+                entriesContainer.innerHTML = '';
+                
+                // Configure marked to render safe HTML
+                marked.use({
+                    mangle: false,
+                    headerIds: false
+                });
+
+                // Render each entry
+                entries.forEach(entry => {
+                    const article = document.createElement('article');
+                    article.className = `entry-card entry-type-${entry.type}`;
+                    
+                    // Create date element
+                    const dateElem = document.createElement('div');
+                    dateElem.className = 'entry-meta';
+                    
+                    const timeElem = document.createElement('time');
+                    timeElem.className = 'entry-time';
+                    timeElem.textContent = formatDateTime(entry.date);
+                    dateElem.appendChild(timeElem);
+                    
+                    // Add source type info (e.g. commit hash or file tag)
+                    const typeElem = document.createElement('span');
+                    typeElem.className = 'entry-source';
+                    if (entry.type === 'commit') {
+                        typeElem.innerHTML = `via commit <a href="https://github.com/dhivyanj/justmoving/commit/${entry.id}" target="_blank" class="commit-link">${entry.hash}</a>`;
+                    } else {
+                        typeElem.innerHTML = `via file <span class="file-tag">${entry.id}</span>`;
+                    }
+                    dateElem.appendChild(typeElem);
+                    
+                    article.appendChild(dateElem);
+                    
+                    // Add title if it's a file entry
+                    if (entry.title) {
+                        const titleElem = document.createElement('h2');
+                        titleElem.className = 'entry-title';
+                        titleElem.textContent = entry.title;
+                        article.appendChild(titleElem);
+                    }
+                    
+                    // Add content element
+                    const contentElem = document.createElement('div');
+                    contentElem.className = 'entry-content';
+                    // Parse markdown to HTML
+                    contentElem.innerHTML = marked.parse(entry.content);
+                    article.appendChild(contentElem);
+                    
+                    entriesContainer.appendChild(article);
+                });
+                
+            } catch (error) {
+                console.error(error);
+                entriesContainer.innerHTML = `<div class="error-state">error loading journal logs: ${error.message}</div>`;
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadEntries);
+    </script>
+</body>
+</html>

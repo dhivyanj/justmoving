@@ -1,0 +1,189 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #000719;
+    color: #48b6ff;
+}
+
+div {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* Layout & Spacing overrides */
+.container {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.journal-header {
+    margin-bottom: 3rem;
+}
+
+.journal-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: #48b6ff;
+}
+
+.journal-subtitle {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.journal-entries-container {
+    margin-bottom: 4rem;
+}
+
+/* Override the default div margins inside our entries container */
+.journal-entries-container div,
+.entry-card div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.entry-card {
+    border-top: 1px solid rgba(0, 135, 202, 0.2);
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+.entry-card:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.entry-meta {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.entry-time {
+    font-weight: bold;
+}
+
+.entry-source {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.commit-link, .file-tag {
+    background-color: rgba(0, 135, 202, 0.1);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border: 1px solid rgba(0, 135, 202, 0.25);
+    transition: all 0.2s ease;
+}
+
+.commit-link:hover {
+    background-color: rgba(0, 135, 202, 0.3);
+    border-color: rgba(0, 135, 202, 0.5);
+}
+
+.entry-title {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+    color: #48b6ff;
+}
+
+.entry-content {
+    line-height: 1.6;
+}
+
+.entry-content p {
+    margin: 0 0 1rem 0;
+}
+
+.entry-content p:last-child {
+    margin-bottom: 0;
+}
+
+.entry-content a {
+    color: #48b6ff;
+    text-decoration: underline;
+}
+
+.entry-content a:hover {
+    color: #0087ca;
+}
+
+.entry-content h1,
+.entry-content h2, 
+.entry-content h3 {
+    color: #48b6ff;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.entry-content ul, 
+.entry-content ol {
+    margin: 0 0 1rem 1.5rem;
+    padding: 0;
+}
+
+.entry-content li {
+    margin-bottom: 0.25rem;
+}
+
+.journal-footer {
+    border-top: 1px solid rgba(0, 135, 202, 0.2);
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.footer-link {
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+/* Global scrollbars for aesthetic details */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #000719;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 135, 202, 0.2);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 135, 202, 0.4);
+}
