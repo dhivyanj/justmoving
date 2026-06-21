@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>justmoving...</title>
-    <!-- Google Fonts for Roboto Mono & Hind Madurai -->
+    <!-- Google Fonts for Roboto Mono & Mukta Malar -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,300..700;1,300..700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300;400;700&family=Roboto+Mono:ital,wght@0,300..700;1,300..700&display=swap"
         rel="stylesheet">
     <!-- Local stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -89,7 +89,11 @@
 
                     const timeElem = document.createElement('time');
                     timeElem.className = 'entry-time';
-                    timeElem.textContent = formatDateTime(entry.date);
+                    let timeText = formatDateTime(entry.date);
+                    if (entry.edited) {
+                        timeText += ' (edited)';
+                    }
+                    timeElem.textContent = timeText;
                     dateElem.appendChild(timeElem);
 
                     // Add source type info (e.g. commit hash or file tag)
@@ -117,6 +121,13 @@
                     contentElem.className = 'entry-content';
                     // Parse markdown to HTML
                     contentElem.innerHTML = marked.parse(entry.content);
+                    
+                    // Post-process links so they open in a new tab
+                    contentElem.querySelectorAll('a').forEach(link => {
+                        link.setAttribute('target', '_blank');
+                        link.setAttribute('rel', 'noopener noreferrer');
+                    });
+                    
                     article.appendChild(contentElem);
 
                     entriesContainer.appendChild(article);

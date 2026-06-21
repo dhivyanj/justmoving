@@ -60,10 +60,11 @@ if (fs.existsSync(entriesDir)) {
       const relativePath = path.relative(__dirname, filePath);
       const content = fs.readFileSync(filePath, 'utf8');
 
-      // Try to determine the creation date from Git history
+      // Try to determine the creation date and edit status from Git history
       let date;
+      let edited = false;
       try {
-        // Get the oldest commit that touched this file
+        // Get all commits that touched this file
         const gitDates = execSync(`git log --follow --format="%aI" -- "${relativePath}"`, { encoding: 'utf8' })
           .trim()
           .split('\n')
@@ -71,6 +72,11 @@ if (fs.existsSync(entriesDir)) {
         
         if (gitDates.length > 0) {
           date = gitDates[gitDates.length - 1]; // Oldest date is the last line
+          
+          // If there are multiple commits and the latest is different from the oldest
+          if (gitDates.length > 1 && gitDates[0] !== gitDates[gitDates.length - 1]) {
+            edited = true;
+          }
         }
       } catch (e) {
         // Git command failed (e.g., untracked file)
@@ -92,7 +98,8 @@ if (fs.existsSync(entriesDir)) {
         title: cleanTitle(file),
         date: date,
         content: content,
-        type: 'file'
+        type: 'file',
+        edited: edited
       });
     }
   }

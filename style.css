@@ -1,13 +1,16 @@
 * {
-    font-family: 'Roboto Mono', 'Hind Madurai', monospace;
+    font-family: 'Roboto Mono', 'Mukta Malar', monospace;
     background-color: #000719;
     color: #48b6ff;
+    font-feature-settings: "ss04" 1;
+    -webkit-font-feature-settings: "ss04" 1;
+    -moz-font-feature-settings: "ss04" 1;
 }
 
 div {
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .hover-underline-animation {
@@ -101,7 +104,8 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.commit-link, .file-tag {
+.commit-link,
+.file-tag {
     background-color: rgba(0, 135, 202, 0.1);
     padding: 0.1rem 0.4rem;
     border-radius: 3px;
@@ -144,14 +148,14 @@ body {
 }
 
 .entry-content h1,
-.entry-content h2, 
+.entry-content h2,
 .entry-content h3 {
     color: #48b6ff;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
 
-.entry-content ul, 
+.entry-content ul,
 .entry-content ol {
     margin: 0 0 1rem 1.5rem;
     padding: 0;
@@ -177,13 +181,16 @@ body {
     width: 6px;
     height: 6px;
 }
+
 ::-webkit-scrollbar-track {
     background: #000719;
 }
+
 ::-webkit-scrollbar-thumb {
     background: rgba(0, 135, 202, 0.2);
     border-radius: 3px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 135, 202, 0.4);
 }
