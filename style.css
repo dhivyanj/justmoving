@@ -165,6 +165,24 @@ body {
     margin-bottom: 0.25rem;
 }
 
+.entry-content blockquote {
+    border-left: 3px solid #48b6ff;
+    background-color: #0b1a30;
+    padding: 0.5rem 1rem;
+    margin: 1.2rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.entry-content blockquote * {
+    background-color: transparent;
+    color: #a5d8ff;
+    font-style: italic;
+}
+
+.entry-content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
 .journal-footer {
     border-top: 1px solid rgba(0, 135, 202, 0.2);
     padding-top: 2rem;

@@ -4,7 +4,7 @@
 
 ### 1.1 prelude
 
-is the me breaking over? *yes*
+is it me breaking over? *yes*
 
 was this because I got attached? *not like that tho*
 
