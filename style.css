@@ -1,7 +1,7 @@
 * {
-    font-family: 'Roboto Mono', 'Mukta Malar', monospace;
+    font-family: 'Noto Serif', 'Noto Serif Tamil', 'Noto Serif Devanagari', 'Noto Serif Grantha', monospace;
     background-color: #000719;
-    color: #48b6ff;
+    color: #4fbeff;
     font-feature-settings: "ss04" 1;
     -webkit-font-feature-settings: "ss04" 1;
     -moz-font-feature-settings: "ss04" 1;
@@ -37,7 +37,7 @@ div {
 }
 
 body {
-    line-height: 1.5;
+    line-height: 2;
 }
 
 /* Layout & Spacing overrides */
@@ -54,7 +54,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     margin: 0 0 0.5rem 0;
-    color: #48b6ff;
+    color: #4fbeff;
 }
 
 .journal-subtitle {
@@ -123,7 +123,7 @@ body {
 .entry-title {
     font-size: 1.5rem;
     margin: 0 0 1rem 0;
-    color: #48b6ff;
+    color: #4fbeff;
 }
 
 .entry-content {
@@ -139,7 +139,7 @@ body {
 }
 
 .entry-content a {
-    color: #48b6ff;
+    color: #4fbeff;
     text-decoration: underline;
 }
 
@@ -150,7 +150,7 @@ body {
 .entry-content h1,
 .entry-content h2,
 .entry-content h3 {
-    color: #48b6ff;
+    color: #4fbeff;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
@@ -165,22 +165,27 @@ body {
     margin-bottom: 0.25rem;
 }
 
-.entry-content blockquote {
-    border-left: 3px solid #48b6ff;
+.entry-content blockquote, blockquote {
+    border-left: 3px solid #4fbeff;
     background-color: #0b1a30;
-    padding: 0.5rem 1rem;
-    margin: 1.2rem 0;
+    padding: 0.1rem 1rem;
+    margin: 1rem 0;
     border-radius: 0 4px 4px 0;
 }
 
-.entry-content blockquote * {
+.entry-content blockquote *, blockquote {
     background-color: transparent;
     color: #a5d8ff;
-    font-style: italic;
 }
 
-.entry-content blockquote p:last-child {
+.entry-content blockquote p:last-child, blockquote {
     margin-bottom: 0;
+}
+
+.entry-content code *, code {
+    background-color: transparent;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .journal-footer {
