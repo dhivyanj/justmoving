@@ -136,7 +136,35 @@ now he is strived of the energy he needs to function so he can't come anymore.
 
 ## 5. rage and resentment
 
----
+### 5.1. prelude
+
+to have this much pain, it makes sense to have uncontrollable rage and it takes pure grace to have them controlled inside you. it is always imploding inside you but the power to endure is the real strength.
+
+ik he will use my rage inside to build me back from my pain. i am letting him do it thats why
+
+i always had myself entirely stained with blood. with each challenge and test, gave me a permanent scar and with the current situations i am fully covered with my blood and i am still bleeding right now. but I am guilty that i just wanted to have a little comfortable with you but i stained you with my blood.
+
+### 5.2. प्रतिउत्तर
+
+i remember everything you said and i can enquote as such as and when required.
+
+everything in my life right now was built from scratch, i cant just get your fathers money to bunk an end term exam and plan a trip in the hills. you can say that you went through everything but i eat panic attacks and pain for breakfast, lunch and dinner.
+
+> Sudden success builds ego. Slow and steady success builds character.
+
+i dont have the privilege to just dilly dally life when i have a minor inconvenience. it is that i have to use my last of my energy to finish the task and responsibilities. 
+
+### 5.3. श्री पराक्रमगाथायाः मूलधाराः
+
+कष्ट। पीड़ा। संघर्ष। युद्ध।
+
+यही है यह पीड़ा। जो व्यक्तित्व रूप से उसका वास्तविक्ता दिखाती है।
+
+पीड़ा आवश्यक है।
+
+यह ही तो भय है, शीघ्र-अतिशीघ्र इस पीडा से मुक्त करने की चेष्टा करती है। उस अहंकार का यही भय यह है कि यह पीड़ा का निवारण करने के बदले उस पीड़ा का सामना किया हो तो उसका विशिष्ट रौद्र रूप प्रकट हो जाएगा। जिसके समक्ष किसी तरह की नकली सोच विचार तुम्हारे समक्ष खड़ा हो नही पायेगा और तुरंत भाग जाता है।
+
+तुम्हारे प्राण की अंतिम श्वास तक युद्ध ही खड़ा है।
 
 ## 6. what he has to say
 
