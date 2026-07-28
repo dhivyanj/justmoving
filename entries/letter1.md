@@ -82,10 +82,8 @@ most of the time it is not lazyness or procrastinating - its just... stillness..
 
 but i cant always rely on that. i need a solution but then...
 
-> *It's a pretty shitty life to live*
-
-> *But no amount of therapy or anything fixed me*
-
+> *It's a pretty shitty life to live*\
+> *But no amount of therapy or anything fixed me*\
 > *So I'm just doing my best with what mental health I have*
 
 same here.
@@ -150,7 +148,8 @@ i remember everything you said and i can enquote as such as and when required.
 
 everything in my life right now was built from scratch, i cant just get your fathers money to bunk an end term exam and plan a trip in the hills. you can say that you went through everything but i eat panic attacks and pain for breakfast, lunch and dinner.
 
-> Sudden success builds ego. Slow and steady success builds character.
+> Sudden success builds ego.\
+> Slow and steady success builds character.
 
 i dont have the privilege to just dilly dally life when i have a minor inconvenience. it is that i have to use my last of my energy to finish the task and responsibilities. 
 
@@ -165,6 +164,13 @@ i dont have the privilege to just dilly dally life when i have a minor inconveni
 यह ही तो भय है, शीघ्र-अतिशीघ्र इस पीडा से मुक्त करने की चेष्टा करती है। उस अहंकार का यही भय यह है कि यह पीड़ा का निवारण करने के बदले उस पीड़ा का सामना किया हो तो उसका विशिष्ट रौद्र रूप प्रकट हो जाएगा। जिसके समक्ष किसी तरह की नकली सोच विचार तुम्हारे समक्ष खड़ा हो नही पायेगा और तुरंत भाग जाता है।
 
 तुम्हारे प्राण की अंतिम श्वास तक युद्ध ही खड़ा है।
+
+> विश्व की पुकार है ये भागवत का सार है,\
+> कि युद्ध ही तो वीर का प्रमाण है,
+
+हे मेरा प्रीय महायोद्धा! इस संघर्ष पर अपना अस्तित्व मत खोना। यही है वो युद्ध जो तुम्हारे अस्तित्व का नया रूप दिलाने वाली है।
+
+जब विश्व ने तय कर लिया है कि तुम्हारे ऊपर एक असीम कर्तव्य है तो उसके लिये तुम्हारा तयार होना अनिवार्य है। इस कारण तेरा एकांत होना, तुम्हारा इस खोखली अस्तित्व पर प्रश्न पर प्रश्न उठाकर तुझे तुम्हारे 
 
 ## 6. what he has to say
 
