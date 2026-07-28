@@ -1,3 +1,5 @@
+<center>content warning</center><br>
+
 # "take care"
 
 ## 1. og copes
@@ -14,7 +16,7 @@ was that a coping mechanism? *yes*
 
 > You just have to find what makes ur mind numb and little quiet. You can never fully be fine
 
-fellow humans weren't a viable option, even forget girls as an option, even attachment as a cope is scary. you are just surviving life, step by step, pace by pace.
+fellow humans weren't a viable option, even forget girls as an option, even attachment as a cope is scary. you are just **surviving life**, step by step, pace by pace.
 
 > Oh I broke down all the time
 > I just mastered the act of acting like I'm fine with everyone
@@ -28,7 +30,7 @@ the part where you **can't take it anymore** then you try to find solutions to d
 
 khair. idk whom to approach. yes y'all are busy with their own works. yes I too was busy but I had the heart to check on you, what happened, but no, when it was my turn... khair...
 
-consider your hands to be stained by blood.
+i am sorry to say this but **consider your hands to be stained by blood.**
 
 > **you have seen me always laughing or smiling right?** *Yeah*
 
@@ -40,13 +42,17 @@ it was all copes from the last 3 years, mutated enough to hide the fact that I w
 
 could I not find a good person I could trust with my heart with, so that we can full together.
 
-playboys want girls for fun and the girls today only want the thrill and the enjoyment. appearance is deceptive.
+playboys want girls for fun and the girls today only want the thrill and the enjoyment. **appearance is deceptive**.
 
 > Everyone has their own coping mechanisms. When one stops working. You gotta look for better ones. That's... Life. Ig...
 
 can academics and hobbies be better copes? *surely yes but...*
 
-### 1.3 final notes
+### 1.3. my inabilities
+
+as for myself with adhd and somewhat in the autism spectrum, i can surely say that people see me differently with my abilities and difficult to actually join actual friend groups. tbh i am currently in `0` private group chats. idk why but i am marked as an ill corner some or the other way which i dont know and cant figure out. maybe i am not normal for the world and what the world really expects. i do my job, i may take time based on the work, i may delay, i wouldn't be able to reciprocate much but i am trying my best to be in accord and oh dear, oh dear, oh...
+
+### 1.4 final notes
 
 at some point you feel so empty inside that doing nothing feels productive and somewhat safe considering the current situation. atp i am staring at the syllabus sheet knowing what to do but idk i have the strength to continue.
 
@@ -54,15 +60,43 @@ more life throws at me, more i lose myself, i am at a high potential with myself
 
 ## 2. fable of the bird
 
-a small piece of attention and attachment was able to fill in the depths of the dark void 
+### 2.1. context
 
-***
+a small piece of attention and attachment was able to fill in the depths of the dark void. to the world which gave me nothing but pain, a single piece of something to care wholeheartedly made me to just get a little bit of the hopes i was looking for.
+
+### 2.2. is it real
+
+it was nothing but a lonely day in my refuge but then i got a cry for help, a soft chirp for help. it was a helpless and an injured bird trying to survive, lying in my plain porch. it was so wounded that it lost hope in surviving. to the world which has given me nothing but pain, i would have turned my back, but no, as an empath i coudnt give up on that.
+
+you could have asked - what if the bird was a dove; it can be whatever - a dove, pigeon or a crow. it looked helpless, i coudnt take my eyes of. oh those wings and those legs wounded by whatever it had to go through.
+
+i saw it healing, i saw it get along with other birds, i got a sense of hope that i am not lone in this shelter anymore. it was me, i wanted to care the bird, but i didnt know it was of comfort for the bird, i only knew to make the bird heal and make it stable.
+
+*the bird had other plans*. it wanted to fly away. for the world which gave me nothing but pain, pain, and pain, what should i reciprocate back, pain!? then i am carrying the cycle forward. but no i am not that way. the bird was focussed on leaving as soon as it got healed, but as for me, a mirror to show affection which this world which never gave me, i gave it all. oh dear oh dear oih oh dear;
+
+is it valid for me to show the same what the world showed me, to ignore and be cruel, heartless enough. yeah you can debate on the looks, i would have done the same **even it was a crow**. but what about me who is still learning what affection feels like, it was a small flower in my wounded and bloody hands. it was my fault that i made the decision to adore it with my blood covered hands.
+
+you can say dont expect much, yeah. even with all the pain, the world expected everything from me, ***is it not just to expect a little bit of care that the world stripped me of...***. if you say it is correct, then sorry i dont deserve to be breathing this air.
+
+the bird felt uncomfortable, yes, that was what the world showed to me, but still i went on, i tried my best not to be a hinderance for the bird and oh dear what was the absolute reality.
+
+### 2.3. the plans
+
+the bird flew, yes, the bird flew away. it has to fly away. **i cant force it to stay**.
+
+but what about me, yes i shouldn't have expectations, because the world only wants me to not have any expectations, give but dont expect, but what can i say to the world which expected every single bit of me. 
+
+caring for the bird gave me a sense of joy which no other work gave me, because i could see myself there, when no one was there when i called, i had to build myself from my ruins, i am not heartless enough to be showing the same what the world showed to me. after everything happened to me, i should be happy like other villains, as they are heartless, they dont expect, they just take. but am i like that?, oh dear oh dear...
+
+i cant even apologize to myself that what went wrong, ***am i a bad person because i kept expectations.***
 
 ## 3. if anything happens
 
 ### 3.1 prelude
 
-idk how i got the courage to sort things these last 2 days. but it was a final glow of a star kind of a power. the urge to settle things if something careless happens. - those texts where i had to connect to ppl to whom i have unknowingly inflicted pain on others, or i had someone i didnt show my side but they were truly my coping mechanism. ill never forget them. i can forgive everyone and be forgiven of what i had to go through. ill never be able to forget even if i crossed paths which were painful but i had to go through. it was pure grace i didnt give up in the process
+idk how i got the courage to sort things these days. but it was a final glow of a star kind of a power. the urge to settle things if something careless happens. - those texts where i had to connect to ppl to whom i have unknowingly inflicted pain on others, or i had someone i didnt show my side but they were truly my coping mechanism. ill never forget them. i can forgive everyone and be forgiven of what i had to go through. ill never be able to forget even if i crossed paths which were painful but i had to go through. it was pure grace i didnt give up in the process
+
+> the thing is, the feeling of being perpetually tired, the type of tiredness even sleep cant even cure, a feeling of you are **just moving** where life takes you and you believe that **all happens for good** in a way that you are destroyed inside but the small bliss of hope just keeps you alive. that is where the beauty lies.
 
 ### 3.2 haunted
 
@@ -108,6 +142,22 @@ yes, thats what i can do to reduce my guilt and pain ive inflicted which has tur
 
 **i cant take it anymore**
 
+### 3.4. mirror
+
+**would yall survive if i showed the same what the world showed to me?**
+
+the world is a better place because of the selfless thought. but at the same time if no one bothered to give another hand, what is the value of life then.
+
+> my mistake and blunder was i looked my needs on others, i ran for them possibly hoping that someone can understand me. nothing worked, i was the villain the whole time. self-sufficiency and isolation looks like my only choice, ill pat myself when im heavy, i will be okay this way.
+
+> i make people uncomfortable unknowingly one or the other way, i know people curse me behind my back because i care alot that they think i am just a big annoyance. i am the bad guy and the villain after all.
+
+> if my cry for help burdened you, i am sorry.
+
+oh dear do you know, oh dear do you know, after all of this pain, the world, yes the exact same world i am talking about, started framing me as the villain just because a little bit of what the world gave me leaked out, the world gave me nothing but pain, but then the world got the sample of what it gave me, it marked me as a villain, oh dear, oh dear, look at that irony.
+
+*let him take care of what is left*.
+
 ## 4. stoicism
 
 ### 4.1. the start
@@ -136,7 +186,7 @@ now he is strived of the energy he needs to function so he can't come anymore.
 
 ### 5.1. prelude
 
-to have this much pain, it makes sense to have uncontrollable rage and it takes pure grace to have them controlled inside you. it is always imploding inside you but the power to endure is the real strength.
+To have this much pain, it makes sense to have uncontrollable rage and it takes pure grace to have them controlled inside you. it is always imploding inside you but the power to endure is the real strength.
 
 ik he will use my rage inside to build me back from my pain. i am letting him do it thats why
 
