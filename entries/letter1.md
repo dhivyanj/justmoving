@@ -184,6 +184,12 @@ It is not his call, but the call of the universe that he needs to be broken to t
 
 I came back to rewrite the story from the blood that has been spilled.
 
+### 4.3. வீரமுழக்கம்
+
+அவன எவ்வளவா சோதிச்சிரிச்சுல உலகம், அவன் எவ்வளவா இணங்கினான்னு எனக்கு நல்லா தெரியும். அவன் ரொம்ப பாவம், ரொம்ப அப்பாவியா சுத்துனான், **சோரம் போயிட்டான் பையன்**.
+
+இங்க பழி ரெண்டு பேரு மேல - ஓன்னு இவன் மேல, இன்னோன்னு இவன **பாடா படுத்தின உலகம்** மேல.
+
 ## 5. Rage and Resentment
 
 ### 5.1. Rebirth
