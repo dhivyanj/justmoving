@@ -70,7 +70,7 @@ it was nothing but a lonely day in my refuge but then i got a cry for help, a so
 
 you could have asked - what if the bird was a dove; it can be whatever - a dove, pigeon or a crow. it looked helpless, i coudnt take my eyes of. oh those wings and those legs wounded by whatever it had to go through.
 
-i saw it healing, i saw it get along with other birds, i got a sense of hope that i am not lone in this shelter anymore. it was me, i wanted to care the bird, but i didnt know it was of comfort for the bird, i only knew to make the bird heal and make it stable.
+i saw it healing, i saw it get along with other birds, i got a sense of hope that i am not lone in this shelter anymore. it was me, i wanted to care the bird, but i didnt know it was of comfort for the bird, i only knew to make the bird heal and make it stable. is it a heartless behaviour that with a lot of care, **it became an attachment**, because i saw nothing but my helpless state there.
 
 *the bird had other plans*. it wanted to fly away. for the world which gave me nothing but pain, pain, and pain, what should i reciprocate back, pain!? then i am carrying the cycle forward. but no i am not that way. the bird was focussed on leaving as soon as it got healed, but as for me, a mirror to show affection which this world which never gave me, i gave it all. oh dear oh dear oih oh dear;
 
@@ -97,6 +97,12 @@ i cant even apologize to myself that what went wrong, ***am i a bad person becau
 idk how i got the courage to sort things these days. but it was a final glow of a star kind of a power. the urge to settle things if something careless happens. - those texts where i had to connect to ppl to whom i have unknowingly inflicted pain on others, or i had someone i didnt show my side but they were truly my coping mechanism. ill never forget them. i can forgive everyone and be forgiven of what i had to go through. ill never be able to forget even if i crossed paths which were painful but i had to go through. it was pure grace i didnt give up in the process
 
 > the thing is, the feeling of being perpetually tired, the type of tiredness even sleep cant even cure, a feeling of you are **just moving** where life takes you and you believe that **all happens for good** in a way that you are destroyed inside but the small bliss of hope just keeps you alive. that is where the beauty lies.
+
+why would i grab attention by showing all of my pain. if my pain won, i am not heartless that i want everyone to notice i am so. if anything happens, i just wanna disappear *with no prior notice*. if it is for grabbing attention, i did everything, i tried by best asking those who benefitted from me, just to be there, but no, no one stayed. so i let it as is.
+
+if people joke behind my back, about how i feel, how would they know about what is hitting the ground and having a 
+
+the people i valued the most, even after everything, soon became to be **hitting the final hit in my coffin**.
 
 ### 3.2 haunted
 
