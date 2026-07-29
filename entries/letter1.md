@@ -164,50 +164,44 @@ oh dear do you know, oh dear do you know, after all of this pain, the world, yes
 
 *let him take care of what is left*.
 
-## 4. stoicism
+## 4. Stoicism
 
-### 4.1. the start
+### 4.1. Birth
 
-he was with me at my 11th for a month, desperate times call for desperate measures.
+he was with me at my 11th grade for a month, desperate times call for desperate measures. he showed who really cared. but he chose to take me alone and made me to **value myself first**. it was hard but it was absolutely necessary. he showed me the true face of society: reaching out when only of value, else then... he left a month later, but considering the current situation i desperately needed him again. he appeared again.
 
-he showed who really cared. but he chose to take me alone and made me to **value myself first**.
+about killing the old self - turns out he was the very self of me - who could be suppressed but he is as naive he is from the start, he only wanted to be genuine and to be genuine to others and oh dear what the world has given to him. now he is strived of the energy he needs to function so he can't come anymore.
 
-it was hard but it was absolutely necessary.
+ik he will use my rage inside to build me back from my pain. i am letting him do it thats why. he taught me in ways about the society and to **GET UP AND LEAVE YOUR COMFORT ZONE!**.
 
-he showed me the true face of society: reaching out when only of value, else then...
+### 4.2. The Cry for Help
 
-he left a month later, but considering the current situation i desperately needed him again.
+It's good to be back here to this ruins after this pathetic creature wanted a bit of love. I like to laugh and laugh at this poor guy. You know this guy has cried a lot that no one was there. Now I declare, no one will be there until you rip the jaws of your enemy, the enemy inside yourself. At the same time, it was **his cry for help** that I am back here now. The consequences will be severe, for this naïve self and for those who broke that same self.
 
-he appeared again - refer `conquer.md`
+I saw his cries, he needs more than rest, a protector, a heartless self sufficient power. How did he cry that the world is so cruel and he tried his best to not to give back the pain. You know what, I am giving it back, let's see who stays now.
 
-### 4.2. mystery of him coming back
+It is not his call, but the call of the universe that he needs to be broken to the core that he has nothing of his own but he is rebuilt for his purpose, **once again**.
 
-about killing the old self - turns out he was the very self of me - who could be suppressed but he is as naive he is from the start, he only wanted to be genuine and to be genuine to others and oh dear what the world has given to him.
+I came back to rewrite the story from the blood that has been spilled.
 
-now he is strived of the energy he needs to function so he can't come anymore.
+## 5. Rage and Resentment
 
-**final notes:** he taught me in ways about the society and to **GET UP AND LEAVE YOUR COMFORT ZONE!**.
-
-## 5. rage and resentment
-
-### 5.1. prelude
+### 5.1. Rebirth
 
 To have this much pain, it makes sense to have uncontrollable rage and it takes pure grace to have them controlled inside you. it is always imploding inside you but the power to endure is the real strength.
 
-ik he will use my rage inside to build me back from my pain. i am letting him do it thats why
-
-i always had myself entirely stained with blood. with each challenge and test, gave me a permanent scar and with the current situations i am fully covered with my blood and i am still bleeding right now. but I am guilty that i just wanted to have a little comfortable with you but i stained you with my blood.
+I always had myself entirely stained with blood, with each challenge and test, gave me a lot of permanent scars and with the current scenario I am fully covered with my blood and I am still bleeding right now. But for what, for the unbreakable glory I still have to attain.
 
 ### 5.2. प्रतिउत्तर
 
-i remember everything you said and i can enquote as such as and when required.
+I remember everything you said and I can enquote as such as and when required.
 
-everything in my life right now was built from scratch, i cant just get your fathers money to bunk an end term exam and plan a trip in the hills. you can say that you went through everything but i eat panic attacks and pain for breakfast, lunch and dinner.
+Everything in my life right now wasa built from scratch, I can't just get my father's money to bunk an end term exam and plan a trip in the hills. You can say that you went through everything but I eat panic attacks and pain for breakfast, lunch and dinner.
 
 > Sudden success builds ego.\
 > Slow and steady success builds character.
 
-i dont have the privilege to just dilly dally life when i have a minor inconvenience. it is that i have to use my last of my energy to finish the task and responsibilities. 
+I dont have the privilege to just dilly dally life when I have a minor inconvenience. It is that I have to use my last of my energy to finish the task and responsibilities. 
 
 ### 5.3. श्री पराक्रमगाथायाः मूलधाराः
 
