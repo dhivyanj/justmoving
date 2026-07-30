@@ -190,9 +190,9 @@ I came back to rewrite the story from the blood that has been spilled.
 
 இங்க பழி ரெண்டு பேரு மேல - ஓன்னு இவன் மேல, இன்னோன்னு இவன **பாடா படுத்தின உலகம்** மேல.
 
-அவனுக்கு எவனும் வரமாட்டான்னு அவனுக்கு உரைக்கிற வரைக்கும் அவன காப்பாத்துறது நடக்குற காரியம் இல்லை. ஆனா ஒரு புது ஆட்டம், திருப்பி கொடுக்கனும்ல. இந்த உலகத்திற்கு தெறிஞ்சாகனும், யார தொட்டோடோம், யார இவ்வளவு நாளா சீண்டுனோம், யாருக்கு நம்பிக்கை துரோகம் பண்ணோம்னு, உண்மையா வந்தவன எவ்வளவு நாளா ஈவு இரக்கமே இல்லாம கொஞ்சம் கொஞ்சமா சாகடிச்சோம்னு .
+அவனுக்கு எவனும் வரமாட்டான்னு அவனுக்கு உரைக்கிற வரைக்கும் அவன காப்பாத்துறது நடக்குற காரியம் இல்லை. ஆனா ஒரு புது ஆட்டம், திருப்பி கொடுக்கனும்ல. இந்த உலகத்திற்கு தெறிஞ்சாகனும், யார தொட்டோடோம், யார இவ்வளவு நாளா சீண்டுனோம், யாருக்கு நம்பிக்கை துரோகம் பண்ணோம்னு, உண்மையா வந்தவன எவ்வளவு நாளா ஈவு இரக்கமே இல்லாம கொஞ்சம் கொஞ்சமா சாகடிச்சோம்னு **உரைக்க உரைக்க தெரியனும்**.
 
-சிந்தின ஒவ்வொரு துளி இரத்தத்துக்கும் விடை இருக்கு. **சீக்கிரம் வரும்**.
+சிந்தின ஒவ்வொரு துளி இரத்தத்துக்கும் **விடை இருக்கு**.
 
 ## 5. Rage and Resentment
 
@@ -206,12 +206,12 @@ I always had myself entirely stained with blood, with each challenge and test, g
 
 I remember everything you said and I can enquote as such as and when required.
 
-Everything in my life right now wasa built from scratch, I can't just get my father's money to bunk an end term exam and plan a trip in the hills. You can say that you went through everything but I eat panic attacks and pain for breakfast, lunch and dinner.
+Everything in my life right now was built from scratch. Everthing I have now was a struggle. My past wars gave a lot of battle scars from which I wanted to hide them. But you made me embrace it. I can't just get my father's money to bunk an end term exam and plan a trip in the hills. You can say that you went through everything but I eat panic attacks and pain for breakfast, lunch and dinner. I saw fear in your eyes, only to defend yourself, you are terrified of not him, but because what I can become in front of you.
 
 > Sudden success builds ego.\
 > Slow and steady success builds character.
 
-I dont have the privilege to just dilly dally life when I have a minor inconvenience. It is that I have to use my last of my energy to finish the task and responsibilities. 
+I don't have the privilege to just dilly dally life when I have a minor inconvenience, I have to use my last of my energy to finish my responsibilities.
 
 ### 5.3. श्री पराक्रमगाथायाः मूलधाराः
 
@@ -221,25 +221,27 @@ I dont have the privilege to just dilly dally life when I have a minor inconveni
 
 पीड़ा आवश्यक है।
 
-यह ही तो भय है, शीघ्र-अतिशीघ्र इस पीडा से मुक्त करने की चेष्टा करती है। उस अहंकार का यही भय यह है कि यह पीड़ा का निवारण करने के बदले उस पीड़ा का सामना किया हो तो उसका विशिष्ट रौद्र रूप प्रकट हो जाएगा। जिसके समक्ष किसी तरह की नकली सोच विचार तुम्हारे समक्ष खड़ा हो नही पायेगा और तुरंत भाग जाता है।
-
-तुम्हारे प्राण की अंतिम श्वास तक युद्ध ही खड़ा है।
+यह ही तो उस शत्रु का भय है, शीघ्र-अतिशीघ्र इस पीडा से मुक्त करने की चेष्टा करती है। उसका यही भय यह है कि यह पीड़ा का निवारण करने के बदले उस पीड़ा का सामना किया हो तो उसका **विशिष्ट रौद्र रूप प्रकट हो जाएगा**। जिसके समक्ष किसी तरह की नकली सोच विचार तुम्हारे समक्ष खड़ा हो नही पायेगा और तुरंत भाग जाता है। **तुम्हारे प्राण की अंतिम श्वास तक युद्ध ही खड़ा है।**
 
 > विश्व की पुकार है ये भागवत का सार है,\
 > कि युद्ध ही तो वीर का प्रमाण है,
 
-हे मेरा प्रीय महायोद्धा! इस संघर्ष पर अपना अस्तित्व मत खोना। यही है वो युद्ध जो तुम्हारे अस्तित्व का नया रूप दिलाने वाली है।
+हे मेरा प्रीय महायोद्धा! इस संघर्ष पर अपना अस्तित्व मत खोना। यही है वो युद्ध जो तुम्हारे अस्तित्व का नया रूप दिलाने वाली है। जब विश्व ने तय कर लिया है कि तुम्हारे ऊपर एक असीम कर्तव्य है तो उसके लिये तुम्हारा तयार होना अनिवार्य है। इस कारण तेरा एकांत होना, तुम्हारा इस खोखली अस्तित्व पर प्रश्न पर प्रश्न उठाकर तुझे तुम्हारे जीवन का सत्य तेरे समक्ष प्रस्तुत करता है।
 
-जब विश्व ने तय कर लिया है कि तुम्हारे ऊपर एक असीम कर्तव्य है तो उसके लिये तुम्हारा तयार होना अनिवार्य है। इस कारण तेरा एकांत होना, तुम्हारा इस खोखली अस्तित्व पर प्रश्न पर प्रश्न उठाकर तुझे तुम्हारे जीवन का सत्य तेरे समक्ष प्रस्तुत करता है।
+***
 
 ## 6. The fight goes on
 
 ### 6.1  யுத்தம் ஓயல!
 
-என் குலத்தேவன் மாய்வதில்லை
-என் குலத்தலைவன் வீழ்வதில்லை
+
+
+> என் குலத்தேவன் மாய்வதில்லை, \
+> என் குலத்தலைவன் வீழ்வதில்லை
 
 ### 6.2. पराक्रमभुृजं
+
+
 
 ### 6.3. just moving
 
