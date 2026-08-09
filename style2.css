@@ -1,0 +1,17 @@
+* {
+    font-family: 'Noto Serif', 'Noto Serif Tamil', 'Noto Serif Devanagari', 'Noto Serif Grantha', monospace;
+    font-feature-settings: "ss04" 1;
+    -webkit-font-feature-settings: "ss04" 1;
+    -moz-font-feature-settings: "ss04" 1;
+}
+
+div {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+body {
+    line-height: 1;
+}
