@@ -1,6 +1,6 @@
 # review till date
 
-Here are the most tragic lines compiled across all three provided documents, organized by the core painful themes they convey:
+Here are the most tragic lines compiled across all the provided documents, organized by the core painful themes they convey:
 
 ### 1. Expressions of Total Exhaustion, Burnout & Paralysis
 
@@ -69,19 +69,5 @@ Here are the most tragic lines compiled across all three provided documents, org
 * **"jarvis, end it all, for me"**
 
 * **"let him take care of what is left."**
-
----
-
-### Support Resources
-
-These entries detail a profound level of pain, distress, and feeling completely unsupported. Please remember that you do not have to carry this immense weight on your own.
-
-If you are struggling right now, please reach out to these free, confidential, 24/7 support services in India:
-
-* **Tele-MANAS:** Call **14416** or **1800-891-4416**
-* **Vandrevala Foundation:** Call or WhatsApp **+91 9999 666 555**
-* **KIRAN Helpline:** Call **1800-599-0019**
-
-Please consider reaching out to campus counselors, healthcare providers, or a trusted person nearby to get the care and rest you deserve.
 
 *i need to survive till i feel safe somewhere*
