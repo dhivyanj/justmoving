@@ -15,7 +15,10 @@ AAAAAAAAAAAAAAAAAAAA
 eo'ifhwoieh
 wjieioawreh taioew hr'oIQRH
 I
-SEGweliy thew.fW YHEiWLETyiyrf. 9q3ryhu"Q(P2ru)"!
-u!o{)RUI0[TEUF[WO0]]}JQ[0TEUQ[ITE[Q3PIR[Q'WIPR]']]]  BHBNBVGGHGMN BGV
+SEGweliy thew.fW YHEiWLETyiyrf. 
+9q3ryhu"Q(P2ru)"!
+u!o{)RUI0[TEUF[WO0]]}JQ
+[0TEUQ[ITE[Q3PIR[Q'WIPR]']]]  
+BHBNBVGGHGMN BGV
 
 am i fine?
