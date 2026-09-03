@@ -1,0 +1,13 @@
+# indescribable pain
+
+summary 1
+
+> A select few are broken so deeply by brutal pressure that their basic sense of safety is shattered, leaving them to navigate a world that demands quiet endurance while offering no cushion for the fall. Driven by a desperate need for comfort, they reach out—clinging to people and spilling their pain—only to be misunderstood, gossiped about, and cast out by the very world that wounded them. The resulting exhaustion settles into a heavy physical toll, an inconsolable inner child, and a terrifying numbness where every ounce of remaining energy is spent fighting an invisible internal war just to keep the harm from spreading to others. Reduced to surviving on reserve energy and labeled as the villain simply for letting a single drop of agony leak out, they are left standing on a razor-thin ledge between life and death—weary of holding up the dam, unbothered by forced gratitude, and quietly longing for the weight to finally end.
+
+summary 2
+
+> A young person fights a quiet, exhausting battle against profound emotional trauma, isolation, and the relentless pressure of intense societal expectations. Having endured years of systemic bullying, intense burnout while preparing for competitive exams, and painful relational betrayals, they feel completely abandoned by a world that seems indifferent to their suffering. This overwhelming pain fractures their sense of internal safety, awakening an aching inner child who cries out for genuine connection, comfort, and understanding. As their coping mechanisms wear thin, physical manifestations of trauma—nervous system exhaustion, panic, and deep distress—take a heavy toll, leaving them running on reserve energy just to survive each day.
+> 
+> Navigating a complex internal divide, they struggle with the fear of becoming a "monster" shaped by hardship, fiercely resisting the urge to project their agony onto others even when their pain inadvertently strains their relationships. Despite feeling marked as a social outcast and repeatedly reaching out to people who fail to provide a safe harbor, they continuously fight a silent war to maintain their empathy and avoid inflicting harm. Writing down these hidden entries serves as a desperate outlet to release the heavy weight they carry, capturing the stark contrast between their internal chaos and the superficial world around them. Ultimately, the narrative captures a soul standing at a critical threshold—drained by relentless struggles and rock-bottom isolation, yet desperately yearning for healing, genuine care, and relief from an unbearable burden.
+
+
