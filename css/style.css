@@ -38,6 +38,8 @@ div {
 
 body {
     line-height: 2;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 /* Layout & Spacing overrides */
@@ -138,6 +140,11 @@ body {
     margin-bottom: 0;
 }
 
+.entry-content pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
 .entry-content a {
     color: #4fbeff;
     text-decoration: underline;
@@ -216,4 +223,207 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 135, 202, 0.4);
+}
+
+/* ===== Toolbar / sort ===== */
+.toolbar {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sort-btn {
+    background-color: rgba(0, 135, 202, 0.1);
+    color: #4fbeff;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid rgba(0, 135, 202, 0.25);
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sort-btn:hover {
+    background-color: rgba(0, 135, 202, 0.3);
+    border-color: rgba(0, 135, 202, 0.5);
+}
+
+/* ===== Hamburger ===== */
+.menu-toggle {
+    position: fixed;
+    top: 1.25rem;
+    left: 1.25rem;
+    z-index: 40;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.6rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000719;
+    border: 1px solid rgba(0, 135, 202, 0.25);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.menu-toggle:hover {
+    border-color: rgba(0, 135, 202, 0.5);
+}
+
+.menu-toggle span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #4fbeff;
+    transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.menu-toggle.is-open span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.menu-toggle.is-open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.is-open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+/* ===== Timeline sidebar ===== */
+.timeline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    width: 17rem;
+    max-width: 85vw;
+    height: 100vh;
+    height: 100dvh;
+    background-color: #000719;
+    border-right: 1px solid rgba(0, 135, 202, 0.2);
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.timeline.is-open {
+    transform: translateX(0);
+}
+
+.timeline div,
+.timeline nav {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.timeline-heading {
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    min-height: 5rem;
+    padding: 0 1.25rem 0.4rem 4rem;
+    border-bottom: 1px solid rgba(0, 135, 202, 0.2);
+    overflow-wrap: anywhere;
+}
+
+.timeline-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.timeline-empty {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    padding: 1rem 1.25rem;
+}
+
+.timeline-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    color: #4fbeff;
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-left: 2px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.timeline-item:hover {
+    background-color: rgba(0, 135, 202, 0.1);
+}
+
+.timeline-item.is-active {
+    background-color: rgba(0, 135, 202, 0.15);
+    border-left-color: #4fbeff;
+}
+
+.timeline-date {
+    display: block;
+    font-size: 0.75rem;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.timeline-label {
+    display: block;
+    font-size: 0.85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.timeline-backdrop {
+    position: fixed;
+    inset: 0;
+    margin: 0 !important;
+    z-index: 20;
+    background-color: rgba(0, 7, 25, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.timeline-backdrop.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ===== Entry states ===== */
+.entry-card.is-flash {
+    border-top-color: rgba(79, 190, 255, 0.6);
+}
+
+/* ===== Narrow screens ===== */
+@media (max-width: 900px) {
+    .menu-toggle {
+        top: 0.75rem;
+        left: 0.75rem;
+    }
+
+    .timeline-heading {
+        min-height: 4rem;
+        padding-left: 3.5rem;
+    }
+
+    .container {
+        padding-top: 4.5rem;
+    }
 }

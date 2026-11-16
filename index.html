@@ -15,11 +15,30 @@
 </head>
 
 <body>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="toggle timeline"
+        aria-controls="timeline" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <aside class="timeline" id="timeline" aria-hidden="true">
+        <div class="timeline-heading">timeline</div>
+        <nav class="timeline-list" id="timeline-list">
+            <div class="timeline-empty">no entries yet.</div>
+        </nav>
+    </aside>
+    <div class="timeline-backdrop" id="timeline-backdrop"></div>
+
     <div class="container">
         <header class="journal-header">
             <h1 class="journal-title">justmoving</h1>
             <p class="journal-subtitle">if you found this, thanks for noticing...</p>
         </header>
+
+        <div class="toolbar">
+            <button class="sort-btn" id="sort-toggle" type="button">sort: newest first</button>
+        </div>
 
         <main id="journal-entries" class="journal-entries-container">
             <div class="loading-state" id="loading-state">
@@ -35,6 +54,18 @@
     </div>
 
     <script>
+        const entriesContainer = document.getElementById('journal-entries');
+        const loadingState = document.getElementById('loading-state');
+        const timeline = document.getElementById('timeline');
+        const timelineList = document.getElementById('timeline-list');
+        const menuToggle = document.getElementById('menu-toggle');
+        const backdrop = document.getElementById('timeline-backdrop');
+        const sortToggle = document.getElementById('sort-toggle');
+
+        let entries = [];
+        let newestFirst = true;
+        let activeKey = null;
+
         // Custom date formatter: YYYY-MM-DD HH:mm:ss
         function formatDateTime(dateStr) {
             const d = new Date(dateStr);
@@ -50,87 +81,193 @@
             return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
         }
 
+        // Short date used in the timeline: YYYY-MM-DD
+        function shortDate(dateStr) {
+            const d = new Date(dateStr);
+            if (isNaN(d.getTime())) return dateStr;
+            const year = d.getFullYear();
+            const month = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        // Label shown in the timeline: explicit title or first markdown line
+        function entryLabel(entry) {
+            if (entry.title && !entry.content.trim().startsWith('#')) return entry.title;
+            const line = entry.content.trim().split('\n')[0].replace(/^#+\s*/, '').trim();
+            if (!line) return 'untitled';
+            return line.length > 48 ? line.slice(0, 48) + '…' : line;
+        }
+
+        function sortedEntries() {
+            const list = entries.slice();
+            list.sort((a, b) => {
+                const diff = new Date(b.date) - new Date(a.date);
+                return newestFirst ? diff : -diff;
+            });
+            return list;
+        }
+
+        function renderEntries() {
+            entriesContainer.innerHTML = '';
+
+            sortedEntries().forEach(entry => {
+                const article = document.createElement('article');
+                article.className = `entry-card entry-type-${entry.type}`;
+                article.id = `entry-${entry.key}`;
+
+                const dateElem = document.createElement('div');
+                dateElem.className = 'entry-meta';
+
+                const timeElem = document.createElement('time');
+                timeElem.className = 'entry-time';
+                let timeText = formatDateTime(entry.date);
+                if (entry.edited) {
+                    timeText += ' (edited)';
+                }
+                timeElem.textContent = timeText;
+                dateElem.appendChild(timeElem);
+
+                const typeElem = document.createElement('span');
+                typeElem.className = 'entry-source';
+                if (entry.type === 'commit') {
+                    typeElem.innerHTML = `via commit <a href="https://github.com/dhivyanj/justmoving/commit/${entry.id}" target="_blank" class="commit-link">${entry.hash}</a>`;
+                } else {
+                    typeElem.innerHTML = `via file <span class="file-tag">${entry.id}</span>`;
+                }
+                dateElem.appendChild(typeElem);
+
+                article.appendChild(dateElem);
+
+                if (entry.title && !entry.content.trim().startsWith('#')) {
+                    const titleElem = document.createElement('h2');
+                    titleElem.className = 'entry-title';
+                    titleElem.textContent = entry.title;
+                    article.appendChild(titleElem);
+                }
+
+                const contentElem = document.createElement('div');
+                contentElem.className = 'entry-content';
+                contentElem.innerHTML = marked.parse(entry.content);
+
+                contentElem.querySelectorAll('a').forEach(link => {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                });
+
+                article.appendChild(contentElem);
+                entriesContainer.appendChild(article);
+            });
+        }
+
+        function renderTimeline() {
+            if (entries.length === 0) {
+                timelineList.innerHTML = '<div class="timeline-empty">no entries yet.</div>';
+                return;
+            }
+
+            timelineList.innerHTML = '';
+
+            sortedEntries().forEach(entry => {
+                const item = document.createElement('button');
+                item.type = 'button';
+                item.className = 'timeline-item' + (entry.key === activeKey ? ' is-active' : '');
+                item.dataset.key = entry.key;
+
+                const time = document.createElement('span');
+                time.className = 'timeline-date';
+                time.textContent = shortDate(entry.date);
+
+                const label = document.createElement('span');
+                label.className = 'timeline-label';
+                label.textContent = entryLabel(entry);
+
+                item.appendChild(time);
+                item.appendChild(label);
+                timelineList.appendChild(item);
+            });
+        }
+
+        function render() {
+            renderEntries();
+            renderTimeline();
+        }
+
+        function setSidebar(open) {
+            timeline.classList.toggle('is-open', open);
+            backdrop.classList.toggle('is-visible', open);
+            menuToggle.classList.toggle('is-open', open);
+            timeline.setAttribute('aria-hidden', open ? 'false' : 'true');
+            menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        }
+
+        function goToEntry(key) {
+            activeKey = key;
+            renderTimeline();
+
+            const target = document.getElementById(`entry-${key}`);
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                target.classList.add('is-flash');
+                setTimeout(() => target.classList.remove('is-flash'), 1200);
+            }
+
+            if (window.matchMedia('(max-width: 900px)').matches) {
+                setSidebar(false);
+            }
+        }
+
+        menuToggle.addEventListener('click', () => {
+            setSidebar(!timeline.classList.contains('is-open'));
+        });
+
+        backdrop.addEventListener('click', () => setSidebar(false));
+
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape') setSidebar(false);
+        });
+
+        timelineList.addEventListener('click', event => {
+            const item = event.target.closest('.timeline-item');
+            if (!item) return;
+            goToEntry(item.dataset.key);
+        });
+
+        sortToggle.addEventListener('click', () => {
+            newestFirst = !newestFirst;
+            sortToggle.textContent = newestFirst ? 'sort: newest first' : 'sort: oldest first';
+            render();
+            if (activeKey) {
+                const target = document.getElementById(`entry-${activeKey}`);
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+
         // Fetch and render journal entries
         async function loadEntries() {
-            const entriesContainer = document.getElementById('journal-entries');
-            const loadingState = document.getElementById('loading-state');
-
             try {
                 const response = await fetch(`entries.json?t=${Date.now()}`);
                 if (!response.ok) {
                     throw new Error('Failed to load journal logs');
                 }
-                const entries = await response.json();
+                const data = await response.json();
 
-                if (entries.length === 0) {
+                if (data.length === 0) {
                     entriesContainer.innerHTML = '<div class="no-entries">no journal logs found. add some using git commits or markdown files.</div>';
+                    renderTimeline();
                     return;
                 }
 
-                // Clear loading state
-                entriesContainer.innerHTML = '';
-
-                // Configure marked to render safe HTML
                 marked.use({
                     mangle: false,
                     headerIds: false
                 });
 
-                // Render each entry
-                entries.forEach(entry => {
-                    const article = document.createElement('article');
-                    article.className = `entry-card entry-type-${entry.type}`;
+                // Stable keys so anchors survive re-sorting
+                entries = data.map((entry, index) => Object.assign({}, entry, { key: index }));
 
-                    // Create date element
-                    const dateElem = document.createElement('div');
-                    dateElem.className = 'entry-meta';
-
-                    const timeElem = document.createElement('time');
-                    timeElem.className = 'entry-time';
-                    let timeText = formatDateTime(entry.date);
-                    if (entry.edited) {
-                        timeText += ' (edited)';
-                    }
-                    timeElem.textContent = timeText;
-                    dateElem.appendChild(timeElem);
-
-                    // Add source type info (e.g. commit hash or file tag)
-                    const typeElem = document.createElement('span');
-                    typeElem.className = 'entry-source';
-                    if (entry.type === 'commit') {
-                        typeElem.innerHTML = `via commit <a href="https://github.com/dhivyanj/justmoving/commit/${entry.id}" target="_blank" class="commit-link">${entry.hash}</a>`;
-                    } else {
-                        typeElem.innerHTML = `via file <span class="file-tag">${entry.id}</span>`;
-                    }
-                    dateElem.appendChild(typeElem);
-
-                    article.appendChild(dateElem);
-
-                    // Add title if it's a file entry and doesn't start with a markdown heading (#)
-                    if (entry.title && !entry.content.trim().startsWith('#')) {
-                        const titleElem = document.createElement('h2');
-                        titleElem.className = 'entry-title';
-                        titleElem.textContent = entry.title;
-                        article.appendChild(titleElem);
-                    }
-
-                    // Add content element
-                    const contentElem = document.createElement('div');
-                    contentElem.className = 'entry-content';
-                    // Parse markdown to HTML
-                    contentElem.innerHTML = marked.parse(entry.content);
-                    
-                    // Post-process links so they open in a new tab
-                    contentElem.querySelectorAll('a').forEach(link => {
-                        link.setAttribute('target', '_blank');
-                        link.setAttribute('rel', 'noopener noreferrer');
-                    });
-                    
-                    article.appendChild(contentElem);
-
-                    entriesContainer.appendChild(article);
-                });
-
+                if (loadingState) loadingState.remove();
+                render();
             } catch (error) {
                 console.error(error);
                 entriesContainer.innerHTML = `<div class="error-state">error loading journal logs: ${error.message}</div>`;
